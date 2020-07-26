@@ -14,17 +14,16 @@ while 条件表达式:
 '''
 
 '''
-end关键字：
+end 关键字：
 end 是print函数中的关键字。
 在while、for循环中，每次输出都是换行的。加入end，使用end=“”中的内容代替换行，分隔每次循环输出内容
 '''
 
-# 案例1  输出1-100之间的数据
+# 案例1  输出1-10之间的数据
 index = 1
-while index <= 100:
+while index <= 10:
     print(index)
     index += 1
-
 
 # 案例2  打印九九乘法表  循环的嵌套
 # 打印正三角

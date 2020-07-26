@@ -4,6 +4,7 @@ for循环
 for 临时变量 in 容器:
     执行代码块
 '''
+
 print('--------------for循环： 打印字符串------------------')
 tags = '我是一个中国人'  # 字符串类型本身就是一个字符类型的集合
 for item in tags:
@@ -123,4 +124,4 @@ while index <= 10:
     index += 1
     pass
 else:
-    print('else 执行了么') # 不会打印这句
+    print('else 执行了么')  # 不会打印这句

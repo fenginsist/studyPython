@@ -5,8 +5,10 @@
 3.如何猜对了，就直接退出
 目的：演练 while 和 if 的使用，综合运用
 '''
+
 print('------------------作业一：------------------')
 times = 0
+
 while times <= 3:
     ageInput = int(input('请输入您猜测的年龄：'))
     age = 25
@@ -33,8 +35,6 @@ while times <= 3:
             pass
         pass
 
-
-
 print('------------------作业二：------------------')
 '''
 小王身高1.75，体重80.5kg。请根据BMI公式（体重除以身高的平方）帮小王计算他的BMI指数，并根据BMI指数：
@@ -49,7 +49,7 @@ print('------------------作业二：------------------')
 weight = 80.5
 high = 1.75
 bmi = weight / (high * high)
-print('BMI的数据是%d'%(bmi))
+print('BMI的数据是%d' % (bmi))
 if bmi < 18.5:
     print('过轻')
     pass

@@ -13,24 +13,23 @@ python的基本数据类型
 '''
 
 # 数字 int
-a = 10;
+a = 10
 print(type(a))
 
-
 # 数字 float
-a = 12.67;
+a = 12.67
 print(type(a))
 
 # 数字 complex
-a = 2.4 + 5j;
+a = 2.4 + 5j
 print(type(a))
 
 # 数字 bool
-a = True;
+a = True
 print(type(a))
 
 # 字符串
-a = '冯凡利';
+a = '冯凡利'
 print(type(a))
 
 print('--------高级类型----------')
@@ -46,4 +45,3 @@ print(type(b))
 # 列表类型 list
 b = []
 print(type(b))
-

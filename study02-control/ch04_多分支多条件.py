@@ -10,6 +10,7 @@ import random
 # 计算机  人
 person = int(input('请出拳:[0:石头 1:剪刀 2:布]'))
 computer = random.randint(0, 2)
+
 if person == 0 and computer == 1:  # 多条件
     print("厉害了..你赢了")
     pass

@@ -60,4 +60,4 @@ print(strMsg[2:5])  # 2-5下标之间的数据
 print(strMsg[2:])  # 第三个字符到最后
 print(strMsg[0:3])  # 1-3 strMsg[0:3]=strMsg[:3]
 print(strMsg[:3])  # 1-3
-print(strMsg[::-1]) # 倒叙输出 负号表示方向 从右边往左去遍历
+print(strMsg[::-1])  # 倒叙输出 负号表示方向 从右边往左去遍历

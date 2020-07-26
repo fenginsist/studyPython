@@ -14,6 +14,7 @@ def jiecheng(n):
         pass
     return result
 
+
 print('-----------------1、循环 计算阶乘-----------------')
 print('10的阶乘{}'.format(jiecheng(10)))
 

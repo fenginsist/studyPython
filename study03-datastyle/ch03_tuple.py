@@ -25,7 +25,7 @@ for item in tupleA:
 
 print()
 print('切片截取:', tupleA[2:4])
-print('逆序打印：', tupleA[::-1])
+print('逆序打印：', tupleA[::-1])  # 步长为-1时，逆序打印
 
 print('反转字符串 每隔 1 个取一次：', tupleA[::-2])  # 表示反转字符串 每隔1 个取一次
 print('反转字符串 每隔 2 个取一次：', tupleA[::-3])  # 表示反转字符串 每隔 2 个取一次
